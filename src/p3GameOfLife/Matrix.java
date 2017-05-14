@@ -9,11 +9,9 @@ package p3GameOfLife;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 public class Matrix {
 	private Cell[][] mCelulas;
@@ -30,7 +28,8 @@ public class Matrix {
 		String cadena;
 		char[] cadAux;
         FileReader fichero = new FileReader(archivoLectura);
-        BufferedReader b = new BufferedReader(fichero);
+        @SuppressWarnings("resource")
+		BufferedReader b = new BufferedReader(fichero);
         n = Integer.parseInt(b.readLine());
         m = Integer.parseInt(b.readLine());
         mCelulas = new Cell[n][m];

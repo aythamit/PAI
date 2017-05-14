@@ -28,7 +28,9 @@ public class Adivina {
 			int cont = 0;
 			for(int i = 0; i < numUsuario.length();i++)
 				cont += countOccurrences(numAleatorio,numUsuario.charAt(i));
+			@SuppressWarnings("unused")
 			char numA[] = numAleatorio.toCharArray();
+			@SuppressWarnings("unused")
 			char numU[] = numUsuario.toCharArray();
 			
 			if(cont == 3)

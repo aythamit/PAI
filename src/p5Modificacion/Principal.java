@@ -15,7 +15,8 @@ public class Principal {
 		
 		Clock temporizador = new Clock();
 		temporizador.start();
-		      long total = 0;
+		      @SuppressWarnings("unused")
+			long total = 0;
 		      for (int i = 0; i < MAX; i++) {
 		         total += i;
 		      }

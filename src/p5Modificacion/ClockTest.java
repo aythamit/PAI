@@ -24,6 +24,7 @@ public class ClockTest {
 		final int MAX = 1000000000;
 		temporizador.restart();
 		temporizador.start();
+		@SuppressWarnings("unused")
 		int total = 0;
 		for (int i = 0; i < MAX; i++) {
 	         total += i;

@@ -1,15 +1,12 @@
 package graphics;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 
+
+@SuppressWarnings("serial")
 public class Ventana extends JFrame {
 
-	private JPanel contentPane;
 	private Cuadratica funcion;
 
 	/**
@@ -17,6 +14,7 @@ public class Ventana extends JFrame {
 	 */
 	public static void main(String[] args) {
 		
+					@SuppressWarnings("unused")
 					Ventana frame = new Ventana();
 					
 					

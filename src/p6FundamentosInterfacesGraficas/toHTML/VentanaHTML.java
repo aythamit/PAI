@@ -15,6 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+@SuppressWarnings("serial")
 public class VentanaHTML extends JFrame {
 
 	private JPanel contentPane;
@@ -27,8 +28,11 @@ public class VentanaHTML extends JFrame {
 			public void run() {
 				try {
 					VentanaHTML frame = new VentanaHTML();
+					@SuppressWarnings("unused")
 					ToHtml a = new ToHtml(args[0],args[1]);
+					@SuppressWarnings("unused")
 					JLabel prueba = new JLabel("prueba");
+					@SuppressWarnings("unused")
 					String ax = "holaa que tal";
 					frame.setVisible(true);
 				} catch (Exception e) {

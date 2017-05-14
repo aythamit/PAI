@@ -7,7 +7,6 @@
  */
 package p3GameOfLife;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 //import p5Modificacion.Clock;

@@ -10,10 +10,8 @@ package graphics;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Polygon;
 
-import javax.swing.JFrame;
-
+@SuppressWarnings("serial")
 public class Cuadratica extends DibujaFuncionAbstracta{
 	
 

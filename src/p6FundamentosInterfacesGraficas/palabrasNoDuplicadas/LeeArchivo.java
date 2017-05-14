@@ -1,7 +1,6 @@
 package p6FundamentosInterfacesGraficas.palabrasNoDuplicadas;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
@@ -22,9 +21,11 @@ public class LeeArchivo {
 	public LeeArchivo(String arch, TreeMap<String, Integer> tmap) throws IOException{
 		setArchivo(arch);
 		String cadena;
+		@SuppressWarnings("unused")
 		int contInstruc = 0;
         FileReader fichero = new FileReader(archivo);
-        BufferedReader b = new BufferedReader(fichero);
+        @SuppressWarnings("resource")
+		BufferedReader b = new BufferedReader(fichero);
         
         while((cadena = b.readLine())!=null) {
         	

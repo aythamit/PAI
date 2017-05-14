@@ -3,6 +3,11 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="p7MVC"/>
 	<classpathentry kind="src" path="p8Graphics"/>
+	<classpathentry kind="src" path="p9Eventos"/>
+	<classpathentry kind="src" path="p10CaminoAleatorio"/>
+	<classpathentry kind="src" path="p11QuickHull"/>
+	<classpathentry kind="src" path="p12TrayectoriaDeProyectiles"/>
+	<classpathentry kind="src" path="p14Splines"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>

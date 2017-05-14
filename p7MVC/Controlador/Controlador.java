@@ -21,6 +21,7 @@ public class Controlador {
 					Monedas.add("Rupias");
 					Monedas.add("Libras");
 					VentanaPrincipal frame = new VentanaPrincipal();
+					@SuppressWarnings("unused")
 					ArrayList<PanelMoneda> paneles = new ArrayList<PanelMoneda>();
 					for(int i = 0; i < NMonedas; i++){
 						frame.add(new PanelMoneda(Monedas.get(i) , String.valueOf(1 * Moneda.conversor(Monedas.get(i)) ) , String.valueOf(NEuros) , 
